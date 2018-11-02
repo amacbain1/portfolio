@@ -1,0 +1,153 @@
+/*---Logo and header container---*/
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+#header-container {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 60px;
+  height: 50px;
+  font-family: 'Righteous', cursive;
+  border: 5px solid #000000;
+  border-radius: 8px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+.name {
+  width: 100%;
+  font-size: 200%;
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 0px;
+  float: right;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 150%;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+/*----Body and content div/container----*/
+
+p {
+  font-family: Quattrocento+Sans, sans-serif;
+  font-size: 18px;
+  line-height: 1.25em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+body {
+  background-color: #d7d3d3;
+}
+
+.addSpace {
+  margin-bottom: 40px;
+}
+
+.projects {
+  padding: 3.0em;
+}
+/* Media queries and breakpoints*/
+@media screen and (min-width: 550px) {
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+  }
+  .img2 {
+    width: 50%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 0 1.5em 1.5em;
+  }
+  #name-container {
+    width: 90%;
+  }
+  .title {
+    width: 100%;
+  }
+  .socal {
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+    float: right;
+    padding: 0.5em 1.5em 0 0;
+
+  }
+  .edu {
+    padding: 2.0em;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .img3 {
+    width: 45%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0 0 2.0em 1.0em;
+  }
+  .img4 {
+    width: 45%;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0 1.0em 2.0em 0;
+    float: right;
+  }
+  .img1 {
+    margin: auto;
+    padding: 1.5em;
+  }
+  #container-header {
+    padding: 1.5em 0 0 1.5em;
+  }
+  .name {
+    width: 85%;
+    font-size: 250%;
+    order: 2;
+  }
+  .title {
+    width: 100%
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+    order: 3;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    max-width: 850px;
+    margin: auto;
+  }
+  p {
+    font-size: 24px;
+  }
+  #header-container {
+    padding: 0;
+    margin: 0;
+  }
+}
